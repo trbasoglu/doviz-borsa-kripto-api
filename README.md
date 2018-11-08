@@ -1,4 +1,4 @@
-# doviz-borsa-kripto-api
+# Döviz, Borsa ve Kripto Paralar API Servisleri
 Bulunan Tüm Döviz Kurları, Borsa ve Kripto Fiyatları Toplu API Servisleri
 
 ## Paragaranti Foreks API
@@ -6,6 +6,13 @@ Bulunan Tüm Döviz Kurları, Borsa ve Kripto Fiyatları Toplu API Servisleri
 - BIST Endes Alfabetik Detaylı Liste: https://web-paragaranti-pubsub.foreks.com/web-services/securities?key=A&index=&exchangeGroupFilter=BIST.E&extendedResult=true ( * key=**HARF** )
 - BIST Endeks Detayı: https://web-paragaranti-pubsub.foreks.com/web-services/securities/definition?name=ENDEKS_ISMI&group=E&exchange=BIST (**ENDEKS_ISMI** yazan bölüme bir üst satırlardaki Endeks isimleri gelecektir.)
 - BIST Yatırım Kuruluşları Listesi: https://web-paragaranti-pubsub.foreks.com/web-services/securities/exchanges/BIST/groups/I
+
+- Serbest Piyasa Dolar Tarihsel Verileri: https://web-paragaranti-pubsub.foreks.com/web-services/historical-data?userName=undefined&name=SUSD&exchange=FREE&market=N&group=F&last=300&period=1440&intraPeriod=null&isLast=false&from=20180508000000&to=20181108235900 (**Tarih aralığını belirtmeyi unutmayınız.**)
+- Serbest Piyasa Euro Tarihsel Verileri: https://web-paragaranti-pubsub.foreks.com/web-services/historical-data?userName=undefined&name=SEUR&exchange=FREE&market=N&group=F&last=300&period=1440&intraPeriod=null&isLast=false&from=20180508000000&to=20181108235900 (**Tarih aralığını belirtmeyi unutmayınız.**)
+- Serbest Piyasa Sterlin Tarihsel Verileri: https://web-paragaranti-pubsub.foreks.com/web-services/historical-data?userName=undefined&name=SGBP&exchange=FREE&market=N&group=F&last=300&period=1440&intraPeriod=null&isLast=false&from=20180508000000&to=20181108235900 (**Tarih aralığını belirtmeyi unutmayınız.**)
+
+* Tarihsel verilere **name** değişkenine diğer kur isimlerini ekleyerek kontrol edebilirsiniz.
+
 
 ## canlidoviz.com Api
 - Döviz: https://api.canlidoviz.com/web/items?marketId=1&type=0
